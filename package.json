@@ -6,9 +6,17 @@
   "scripts": {
     "dev": "next dev"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/viniciusgasparino/climaDev-devchallenge1.git"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/viniciusgasparino/climaDev-devchallenge1/issues"
+  },
+  "homepage": "https://github.com/viniciusgasparino/climaDev-devchallenge1#readme",
   "dependencies": {
     "next": "^12.2.5",
     "react": "^18.2.0",
