@@ -1,4 +1,5 @@
 import styled from "styled-components"
+import BackgroundImage from "../src/components/layout/backgroundImageWithChildren/BackgroundImage"
 
 const StyledDiv = styled.div`
   background-color: ${props => props.theme.colors.black};
@@ -7,9 +8,11 @@ const StyledDiv = styled.div`
 
 function HomePage(){
   return(
-    <StyledDiv>
-      funcionando...
-    </StyledDiv>
+    <BackgroundImage>
+      <StyledDiv>
+        funcionando...
+      </StyledDiv>
+    </BackgroundImage>
   )
 }
 
