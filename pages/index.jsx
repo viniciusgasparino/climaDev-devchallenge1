@@ -3,6 +3,11 @@ import BackgroundImage from "../src/components/layout/backgroundImageWithChildre
 
 const StyledDiv = styled.div`
   background-color: ${props => props.theme.colors.black};
+  min-width: 500px;
+
+  @media (max-width: 500px){
+    min-width: 100%;
+  }
 `
 
 
