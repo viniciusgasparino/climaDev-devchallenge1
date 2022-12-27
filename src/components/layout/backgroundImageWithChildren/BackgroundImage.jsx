@@ -1,4 +1,3 @@
-import { Children } from "react"
 import styled from "styled-components"
 
 const StyledFlex = styled.div`
@@ -21,7 +20,7 @@ function BackgroundImage({children,image}){
     </StyledFlex>
   )
 }
-
+      
 BackgroundImage.defaultProps = {
   image: "/background.png"
 }

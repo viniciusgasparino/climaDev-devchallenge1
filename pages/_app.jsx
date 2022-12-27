@@ -7,6 +7,7 @@ const GlobalStyle = createGlobalStyle`
     margin: 0;
     box-sizing: border-box;
     background-color: ${props => props.theme.colors.white};
+    font-family: sans-serif;
   }
 `
 
