@@ -1,7 +1,7 @@
 import styled from "styled-components"
 import BackgroundImage from "../src/components/layout/backgroundImageWithChildren/BackgroundImage"
 import Logo from "../src/components/logo/Logo"
-import Input from "../src/components/form/input/Input"
+import InputSugestions from "../src/components/form/inputSugestions/InputSugestions"
 
 
 const StyledDiv = styled.div`
@@ -17,13 +17,27 @@ const StyledDiv = styled.div`
   }
 `
 
+const StyledInput = styled(InputSugestions)`
+  width: 100%;
+`
+
+const InputContainer = styled.div`
+
+  @media (min-width: 750px) {
+    width: 150%;
+  } 
+  z-index: 100;
+`
+
 
 function HomePage(){
   return(
     <BackgroundImage>
       <StyledDiv>
         <Logo showImage type="vertical"/>    
-        <Input placeholder="Digite o nome da Cidade" />     
+        <InputContainer>
+          <StyledInput placeholder="Digite o nome da Cidade" />  
+        </InputContainer>   
       </StyledDiv>
     </BackgroundImage>
   )
