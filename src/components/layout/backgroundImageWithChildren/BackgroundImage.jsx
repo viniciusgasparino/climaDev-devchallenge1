@@ -1,5 +1,6 @@
 import styled from "styled-components"
 
+
 const StyledFlex = styled.div`
   display: flex;
 `
@@ -20,7 +21,7 @@ function BackgroundImage({children,image}){
     </StyledFlex>
   )
 }
-      
+
 BackgroundImage.defaultProps = {
   image: "/background.png"
 }

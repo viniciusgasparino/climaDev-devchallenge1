@@ -1,6 +1,7 @@
 import styled from "styled-components"
 import BackgroundImage from "../src/components/layout/backgroundImageWithChildren/BackgroundImage"
 import Logo from "../src/components/logo/Logo"
+import Input from "../src/components/form/input/Input"
 
 
 const StyledDiv = styled.div`
@@ -22,7 +23,7 @@ function HomePage(){
     <BackgroundImage>
       <StyledDiv>
         <Logo showImage type="vertical"/>    
-        <input />
+        <Input placeholder="Digite o nome da Cidade" />     
       </StyledDiv>
     </BackgroundImage>
   )
