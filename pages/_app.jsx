@@ -7,8 +7,8 @@ const GlobalStyle = createGlobalStyle`
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    background-color: ${props => props.theme.colors.white};
     font-family: sans-serif;
+    color: ${props => props.theme.colors.black};
   }
 `
 
