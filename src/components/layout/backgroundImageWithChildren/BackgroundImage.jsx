@@ -17,7 +17,7 @@ function BackgroundImage({children,image}){
   return(
     <StyledFlex>
       {children}
-      <StyledImage image={image}/>
+      <StyledImage image={image} />
     </StyledFlex>
   )
 }
