@@ -17,7 +17,6 @@ const HorizontalText = styled.h1`
   font-size: 40px;
 `
 
-
 const PrimaryColor = styled.span`
   color: ${props => props.theme.colors.primary};
   text-transform: uppercase;
