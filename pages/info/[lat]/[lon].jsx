@@ -2,6 +2,7 @@ import styled from "styled-components"
 import Navbar from "../../../src/components/navbar/Navbar"
 import Container from "../../../src/components/layout/container/Container"
 import ClimaCard from "../../../src/components/climaCard/ClimaCard"
+import Footer from "../../../src/components/footer/Footer"
 import {useState,useEffect} from "react"
 import {useRouter} from "next/router"
 
@@ -98,6 +99,7 @@ function InfoPage(){
           </InfoContainer>
         </Container>
       </Body>
+      <Footer/>
     </>
   )
 }
