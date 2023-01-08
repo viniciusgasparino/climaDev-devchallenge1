@@ -1,6 +1,7 @@
 import styled from "styled-components"
 import Logo from "../logo/Logo"
 import Container from "../layout/container/Container"
+import {useRouter} from "next/router"
 
 
 const StyledNavbar = styled.div`
@@ -9,12 +10,20 @@ const StyledNavbar = styled.div`
   align-items: center;
 `
 
+const StyledLogo = styled.div`
+  cursor: pointer;
+`
+
 
 function Navbar(){
+  const router = useRouter()
+
   return(
     <StyledNavbar>
       <Container>
-        <Logo/>
+        <StyledLogo  onClick={()=>router.push("/")}>
+          <Logo />
+        </StyledLogo>
       </Container>
     </StyledNavbar>
   )

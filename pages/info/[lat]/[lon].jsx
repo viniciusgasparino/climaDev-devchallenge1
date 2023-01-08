@@ -48,7 +48,6 @@ function InfoPage(){
     setFutureInfo(json)
   }
 
-
   useEffect(()=>{
     if(lat && lon){
       fetchCurrentInfo()
@@ -88,7 +87,7 @@ function InfoPage(){
               max={futureInfo?.list[0].main.temp_max}
             />
             <ClimaCard 
-              title="Próximas 3 horas"
+              title="Próximas 6 horas"
               icon={futureInfo?.list[1].weather[0].icon}
               description={futureInfo?.list[1].weather[0].description}
               temp={futureInfo?.list[1].main.temp}
