@@ -13,7 +13,7 @@ const StyledNavbar = styled.div`
 const StyledLogo = styled.div`
   cursor: pointer;
 `
-
+      
 
 function Navbar(){
   const router = useRouter()
@@ -21,7 +21,7 @@ function Navbar(){
   return(
     <StyledNavbar>
       <Container>
-        <StyledLogo  onClick={()=>router.push("/")}>
+        <StyledLogo onClick={()=>router.push("/")}>
           <Logo />
         </StyledLogo>
       </Container>

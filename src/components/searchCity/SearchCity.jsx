@@ -1,7 +1,7 @@
 import InputSugestions from "../form/inputSugestions/InputSugestions"
 import {useState,useEffect} from "react"
 import {useRouter} from "next/router"
-
+          
         
 function SearchCity(){
   const [searchText,setSearchText] = useState("")

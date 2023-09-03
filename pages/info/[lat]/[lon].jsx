@@ -76,8 +76,8 @@ function InfoPage(){
               temp={currentInfo?.main.temp}
               feels={currentInfo?.main.feels_like}
               min={currentInfo?.main.temp_min}
-              max={currentInfo?.main.temp_max}
-            />
+              max={currentInfo?.main.temp_max}      
+            />      
             <ClimaCard 
               title="Próximas 3 horas"
               icon={futureInfo?.list[0].weather[0].icon}
